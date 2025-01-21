@@ -39,15 +39,14 @@ A simple banking management system built in Java using Java Swing for the graphi
 -Open Conn.java.
 -Update the database connection URL, username, and password according to your local MySQL setup.
 
-c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", "root", "yourpassword");
+
 
 
 4. **Run the Application:**
 
 -Compile and run the Java classes.
 -Start by running the main class (typically Login.java or the first screen you encounter).
-javac *.java
-java Login
+
 
 **How It Works**
 -Login Screen: The user enters their PIN to authenticate.
