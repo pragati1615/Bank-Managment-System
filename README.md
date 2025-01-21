@@ -30,28 +30,28 @@ A simple banking management system built in Java using Java Swing for the graphi
 
 2. **Set up MySQL Database:**
 
--Create a database named bankmanagementsystem.
--Create the required tables (e.g., login, bank, etc.).
--Use the provided SQL scripts to set up the necessary structure for the database.
+Create a database named bankmanagementsystem.
+Create the required tables (e.g., login, bank, etc.).
+Use the provided SQL scripts to set up the necessary structure for the database.
 
 3. **Configure the Database Connection:**
 
--Open Conn.java.
--Update the database connection URL, username, and password according to your local MySQL setup.
+Open Conn.java.
+Update the database connection URL, username, and password according to your local MySQL setup.
 
 
 
 
 4. **Run the Application:**
 
--Compile and run the Java classes.
--Start by running the main class (typically Login.java or the first screen you encounter).
+Compile and run the Java classes.
+Start by running the main class (typically Login.java or the first screen you encounter).
 
 
 **How It Works**
--Login Screen: The user enters their PIN to authenticate.
--Main Menu: After login, users can access options like deposit, withdrawal, balance enquiry, mini statement, pin change, and fast cash.
--Database: All user transactions are logged in a MySQL database, and user data (such as PIN) is stored securely.
+Login Screen: The user enters their PIN to authenticate.
+Main Menu: After login, users can access options like deposit, withdrawal, balance enquiry, mini statement, pin change, and fast cash.
+Database: All user transactions are logged in a MySQL database, and user data (such as PIN) is stored securely.
 
 
 
